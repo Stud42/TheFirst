@@ -49,4 +49,15 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/jona"
         tools:srcCompat="@drawable/jona" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/TheTruth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:text="@string/TheTruth" />
 </androidx.constraintlayout.widget.ConstraintLayout>
